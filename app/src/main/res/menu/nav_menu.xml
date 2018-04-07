@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_primary"
+            android:icon="@drawable/ic_primary"
+            android:title="Primary"/>
+        <item
+            android:id="@+id/nav_social"
+            android:icon="@drawable/ic_social"
+            android:title="Social"/>
+        <item
+            android:id="@+id/nav_promotions"
+            android:icon="@drawable/ic_promotions"
+            android:title="Promotions"/>
+    </group>
+
+    <group android:checkableBehavior="single">
+
+    <item android:title="Recent labels">
+        <menu>
+            <item
+                android:id="@+id/nav_personal"
+                android:icon="@drawable/ic_personal"
+                android:title="Personal"/>
+        </menu>
+    </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+    <item android:title="All labels">
+        <menu>
+            <item
+                android:id="@+id/action_star"
+                android:title="Starred"
+                android:icon="@drawable/ic_nav_star"/>
+
+            <item
+                android:id="@+id/action_send"
+                android:title="Sent"
+                android:icon="@drawable/ic_send"/>
+
+            <item
+                android:id="@+id/action_bin"
+                android:title="Bin"
+                android:icon="@drawable/ic_bin"/>
+        </menu>
+    </item>
+    </group>
+
+</menu>

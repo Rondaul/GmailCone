@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_archive"
+        android:icon="@drawable/ic_archive"
+        android:orderInCategory="1"
+        android:title="@string/action_archive"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_delete"
+        android:icon="@drawable/ic_delete"
+        android:orderInCategory="2"
+        android:title="@string/action_delete"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_drafts"
+        android:icon="@drawable/ic_drafts"
+        android:orderInCategory="3"
+        android:title="@string/action_drafts"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_move_to"
+        android:orderInCategory="1"
+        android:title="Move to"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_label"
+        android:orderInCategory="2"
+        android:title="Change labels"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_star"
+        android:orderInCategory="3"
+        android:title="Add star"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_not_importat"
+        android:orderInCategory="4"
+        android:title="Mark as not important"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_mute"
+        android:orderInCategory="5"
+        android:title="Mute"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_spam"
+        android:orderInCategory="6"
+        android:title="Report spam"
+        app:showAsAction="never"/>
+
+</menu>

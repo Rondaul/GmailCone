@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">GmailCone</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="action_search">Search</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_archive">Archive</string>
+    <string name="action_drafts">Drafts</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>
